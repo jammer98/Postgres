@@ -1,4 +1,4 @@
-import  pool  from '../src/database/db.js';
+import  pool  from '../db/databaseConnection.js';
 
 const getAllUsers = async (req,res) =>{
     try {
